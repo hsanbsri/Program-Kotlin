@@ -11,7 +11,7 @@ files:
       offset: 381
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Unchecked
     encrypted_possible_answer: |-
       println("""
               String result: $stringResult
@@ -25,7 +25,7 @@ files:
       offset: 442
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Unchecked
     encrypted_possible_answer: |-
       return when (args) {
               is Int -> args * 5
@@ -98,8 +98,8 @@ files:
         fun test8() = checkFunction(100110)
     }
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Compilation Failed
-  time: Mon, 20 Dec 2021 11:14:13 UTC
+  message: Congratulations!
+  time: Mon, 20 Dec 2021 11:14:37 UTC
 record: -1
